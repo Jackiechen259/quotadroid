@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuotaDroid</string>
+
+    <string name="dashboard_title">配额总览</string>
+    <string name="action_refresh">刷新</string>
+    <string name="action_settings">设置</string>
+    <string name="action_back">返回</string>
+    <string name="retry">重试</string>
+    <string name="loading_usage">正在读取配额…</string>
+
+    <string name="empty_title">还没有配置 API Key</string>
+    <string name="empty_body">在 OpenCode Console 创建 Personal API Key 并勾选 Usage › Read 权限，填入后即可监控 5 小时、近一周、近一月三个配额窗口。</string>
+    <string name="empty_action">去配置</string>
+
+    <string name="hero_peak">最高负载</string>
+    <string name="hero_next_reset_hint">最近重置：%1$s，还有 %2$s</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="window_rolling">5 小时</string>
+    <string name="window_weekly">近一周</string>
+    <string name="window_monthly">近一月</string>
+    <string name="window_used">已用 %1$d%%</string>
+    <string name="window_remaining">剩余 %1$d%%</string>
+    <string name="window_resets_in">%1$s 后重置</string>
+
+    <string name="countdown_days_hours">%1$d 天 %2$d 小时</string>
+    <string name="countdown_hours_minutes">%1$d 小时 %2$d 分</string>
+    <string name="countdown_minutes">%1$d 分钟</string>
+    <string name="countdown_seconds">%1$d 秒</string>
+
+    <string name="status_healthy">正常</string>
+    <string name="status_warning">偏高</string>
+    <string name="status_critical">额度耗尽</string>
+
+    <string name="last_updated">更新于 %1$s</string>
+    <string name="subtitle_source">数据来自 opencode.ai</string>
+
+    <string name="error_generic">暂时没有可用的用量数据。</string>
+    <string name="error_missing_key">请先填写 OpenCode API Key。</string>
+    <string name="error_unauthorized">API Key 被拒绝（401），请检查密钥与 Usage › Read 权限。</string>
+    <string name="error_forbidden">该工作区未开通 OpenCode Go，或密钥没有读取权限（403）。</string>
+    <string name="error_throttled">请求过于频繁（429），请稍后再试。</string>
+    <string name="error_http">接口返回 HTTP %1$d。</string>
+    <string name="error_parse">无法解析用量响应：%1$s</string>
+    <string name="error_network">网络请求失败：%1$s</string>
+    <string name="error_unknown">发生未知错误：%1$s</string>
+
+    <string name="settings_title">设置</string>
+    <string name="settings_credentials">凭据</string>
+    <string name="settings_api_key">OpenCode API Key</string>
+    <string name="settings_api_key_hint">oc_sk_…</string>
+    <string name="settings_api_key_set">已保存，输入新密钥可替换</string>
+    <string name="settings_api_key_hint_body">使用 Android Keystore 的 AES/GCM 加密保存，不会明文落盘。</string>
+    <string name="settings_workspace">工作区 ID（可选）</string>
+    <string name="settings_workspace_hint">留空则使用密钥绑定的工作区</string>
+    <string name="settings_test">测试连接</string>
+    <string name="settings_testing">测试中…</string>
+    <string name="settings_test_ok">连接成功，已读取到配额数据。</string>
+    <string name="settings_clear_key">清除密钥</string>
+    <string name="settings_refresh">后台刷新间隔</string>
+    <string name="settings_refresh_body">设备空闲时 Android 可能延后后台任务。</string>
+    <string name="settings_thresholds">告警阈值</string>
+    <string name="settings_thresholds_body">每个窗口在每个重置周期内最多提醒一次。</string>
+    <string name="settings_notifications">允许通知</string>
+    <string name="settings_notifications_body">窗口用量越过阈值时提醒。</string>
+    <string name="settings_save">保存</string>
+    <string name="minutes_value">%1$d 分钟</string>
+    <string name="privacy_note">API Key 只保存在本机，仅作为 Bearer 令牌发送到 opencode.ai。</string>
+
+    <string name="channel_alerts">配额告警</string>
+    <string name="channel_alerts_description">配额窗口接近或达到上限时提醒。</string>
+    <string name="notification_title">%1$s 配额告警</string>
+    <string name="notification_body">已用 %1$d%%（阈值 %2$d%%）</string>
+</resources>
