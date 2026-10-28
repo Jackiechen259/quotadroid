@@ -53,7 +53,7 @@
     <string name="settings_api_key_set">Saved — enter a new key to replace it</string>
     <string name="settings_api_key_hint_body">Stored with AES/GCM in the Android Keystore; never written in plain text.</string>
     <string name="settings_workspace">Workspace ID (optional)</string>
-    <string name="settings_workspace_hint">Leave empty to use the key's own workspace</string>
+    <string name="settings_workspace_hint">Leave empty to use the workspace bound to the key</string>
     <string name="settings_test">Test</string>
     <string name="settings_testing">Testing…</string>
     <string name="settings_test_ok">Connection OK — quota data received.</string>
